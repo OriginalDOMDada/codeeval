@@ -1,0 +1,36 @@
+/*@font-face {
+    font-family: 'FranklinGothic-Book';
+    src: url('../fonts/FranklinGothic-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FranklinGothic-DemiCd';
+    src: url('../fonts/FranklinGothic-DemiCd.otf');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+.main-box {
+	height: 743px;
+	width: 200px;
+	border: 1px solid red; 
+
+}
+
+li {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+
+ li:first-child {
+	border-bottom: 1px solid grey;
+
+}
+
+ li:nth-child(2) {
+	border-bottom: 1px solid grey;
+}

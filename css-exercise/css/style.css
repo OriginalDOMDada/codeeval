@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'FranklinGothic-Book';
+    src: url('../fonts/FranklinGothic-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FranklinGothic-DemiCd';
+    src: url('../fonts/FranklinGothic-DemiCd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family: 'FranklinGothic-Book' sans-serif;
+	background-color: #cbcbcb;
+	overflow: hidden;
+}
+
+strong {
+	font-family: 'FranklinGothic-DemiCd' sans-serif;
+	font-size: 1.4em;
+
+}
+
+.main-box {
+	height: 200px;
+	width: 243px;
+	border: 1px solid #cbcbcb;;
+	background-color: white;
+	margin: 250px auto;
+	overflow: hidden;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+
+li {
+	height: 35px;
+	width: 100%;
+	background-color: white;
+	font-size: 1.4em;
+	padding-top: 15px;
+	padding-left: 10px;
+
+}
+
+li:before {
+	padding-right: 10px;
+}
+
+ li:first-child {
+	border-bottom: 1px solid #cbcbcb;
+	font-size: 1em;
+
+}
+
+ li:first-child:before {
+	content: url(../img/subscribe.png);
+}
+
+
+ li:first-child:hover::before {
+	content: url(../img/subscribe-hover.png);
+}
+
+
+ li:nth-child(2) {
+	border-bottom: 1px solid #cbcbcb;;
+}
+
+ li:nth-child(2):before {
+	content: url(../img/myprofile.png);
+
+}
+
+ li:nth-child(2):hover::before {
+	content: url(../img/myprofile-hover.png);
+}
+
+ li:nth-child(3):before {
+	content: url(../img/logout.png);
+
+}
+
+ li:nth-child(3):hover::before {
+	content: url(../img/logout-hover.png);
+}
+
+li:hover {
+	background-color: #cbcbcb; 
+
+}
