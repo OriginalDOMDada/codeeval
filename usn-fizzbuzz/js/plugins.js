@@ -10,9 +10,7 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
 $(document).ready( function() {
-    /*$("table").fizzBuzz();
-    $('tr').fizzBuzzer();*/
     $("tr:even").css("background-color", "#E4E4E4");
-    $("tr").letsHope ();
+    $("table").fizzBuzz(); //Initialize fizBuzz fuction here
 });
 
